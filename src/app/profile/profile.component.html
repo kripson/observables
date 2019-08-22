@@ -1,0 +1,33 @@
+<div class = "profileForm">
+  <form>
+  		<!-- Place to edit the details for a user -->
+  		<p>Username:</p>
+      <input type="text" [(ngModel)]="username" name="username" placeholder="{{username}}"><br><br>
+
+      <p>Birthdate:</p>
+      <input type="text" [(ngModel)]="birthdate" name="birthdate" placeholder="{{birthdate}}"><br><br>
+
+	<p>Age:</p>	
+       <input type="text" [(ngModel)]="age" name="age" placeholder="{{age}}"><br><br>
+       <p>Email:</p>
+      <input type="text" [(ngModel)]="email" name="email" placeholder="{{email}}"><br><br>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+      <button (click) = "change()">Submit</button>
+
+      <button (click) = "goToAccount()">Go To Account</button>
+  
+
+  </form>
+</div>
